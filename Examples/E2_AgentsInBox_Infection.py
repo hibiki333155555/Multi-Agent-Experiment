@@ -5,9 +5,9 @@ from matplotlib import animation, rc, gridspec
 
 N = 20  # エージェントの個数
 SIZE = 50  # 仮想空間のサイズ
-SPEED = N/5
+SPEED = 1
 SEED = 65355
-R = 9
+R = 6
 TREATMENT_PERIOD = 40  # 感染してから治るまでの期間
 MORTALITY_RATE = 0.05  # 死亡率
 MORTALITY_PERIOD = 20  # 感染から死亡までの期間
@@ -144,7 +144,7 @@ statasD_sum_left= []
 OVER_CAPACITY = N/2
 
 # エージェントシミュレーション
-for t in range(100):
+for t in range(150):
     T.append(t)
     xlistS, ylistS, xlistI, ylistI, xlistR, ylistR, xlistD, ylistD = calcn(agents)  # 次時刻の状態を計算
     im = []
