@@ -1,7 +1,16 @@
 #### Multi-Agent-Experiments
 
-#### E1
-![E1_AgentsInBox](./Examples/E1_AgentsInBox.gif)
+#### E1&&E2
+<img src="Examples/E1_AgentsInBox.gif" width=300>
 
-#### E2
-![E2_AgentsInBox_Infection](./Examples/E2_AgentsInBox_Infection.gif)
+<img src="Examples/E2_AgentsInBox_Infection.gif" width=300>
+
+#### E3
+2体のAgentの会話シュミレーションの実装
+会話履歴すべてをプロンプトとしてAgentに与えている
+
+- Todo
+- 会話履歴以外の情報をmemoryに載せる
+- Agentのペルソナの記載を増やす
+- Agentが外部APIを使えるようにする
+- ReActフレームワークの実装 
