@@ -2,7 +2,7 @@
 
 #### E1 E2
 Agentがボックス内を飛び回るシュミレーション
-E2では　感染症の蔓延をシュミレーションしている
+E2では感染症の蔓延をシュミレーションしている  
 <img src="Examples/E1_AgentsInBox.gif" width=300> <img src="Examples/E2_AgentsInBox_Infection.gif" width=300>
 
 #### E3
