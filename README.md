@@ -1,12 +1,12 @@
 #### Multi-Agent-Experiments
 
-#### E1&&E2
-<img src="Examples/E1_AgentsInBox.gif" width=300>
-
-<img src="Examples/E2_AgentsInBox_Infection.gif" width=300>
+#### E1 E2
+Agentがボックス内を飛び回るシュミレーション
+E2では　感染症の蔓延をシュミレーションしている
+<img src="Examples/E1_AgentsInBox.gif" width=300> <img src="Examples/E2_AgentsInBox_Infection.gif" width=300>
 
 #### E3
-2体のAgentの会話シュミレーションの実装
+2体のAgentの会話シュミレーションの実装  
 会話履歴すべてをプロンプトとしてAgentに与えている
 
 - Todo
